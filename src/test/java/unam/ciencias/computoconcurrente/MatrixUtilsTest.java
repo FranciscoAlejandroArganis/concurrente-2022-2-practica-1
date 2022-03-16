@@ -18,7 +18,7 @@ class MatrixUtilsTest {
                 {0, 0, -1, 39},
         };
 
-        assertEquals(-10, matrixUtils.findAverage(matrix));
+        assertEquals(9.375, matrixUtils.findAverage(matrix));
     }
 
     @Test
@@ -31,7 +31,7 @@ class MatrixUtilsTest {
                 {0, 0, -1, 39},
         };
 
-        assertEquals(-9.37, matrixUtils.findAverage(matrix));
+        assertEquals(9.375, matrixUtils.findAverage(matrix));
     }
 
     @Test

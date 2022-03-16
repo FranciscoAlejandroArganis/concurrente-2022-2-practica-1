@@ -53,7 +53,7 @@ public class App {
 
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println("Comparacion ejercicio 02");
-        System.out.println("Se uso una matriz de:  ");
+        System.out.println("Se uso una matriz de: " + matrix.length + " x " + matrix [0].length);
         System.out.println("El tiempo en el algoritmo secuencial tarda: " + tiempo011);
         System.out.println("El tiempo en el algoritmo paralelo tarda: " + tiempo022);
 
